@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>惠更斯原理</title>
+    <title>惠更斯定理</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
@@ -14,14 +14,12 @@
   </head>
   <body>
     
-    <a-scene embedded arjs vr-mode-ui="enabled: false" copycanvas>
-      <div class="container">
-        <div class="header">
-          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        </div>
-        <div class="main" id="unityContainer" ></div>
+    <div class="container">
+      <div class="header">
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
       </div>
-    </a-scene>
+      <div class="main" id="unityContainer" ></div>
+    </div>
 
     <script>
       var recaptureInputAndFocus = function() {
